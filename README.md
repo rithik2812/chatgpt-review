@@ -41,3 +41,19 @@ Net Promoter Score:
 
 Promoters (Rating = 5), Passives (Rating = 4), Detractors (others).
 Formula: NPS = %Promoters - %Detractors
+
+
+
+In this project, we analyze ChatGPT app reviews to understand user sentiment using a combination of TextBlob, TF-IDF, and Naive Bayes. First, we apply TextBlob to each review to obtain a basic sentiment score, giving us a sense of the review’s polarity (positive/negative) and subjectivity. While TextBlob provides a quick, lexicon-based sentiment estimate, we further enhance our analysis using TF-IDF to convert review text into numerical vectors that reflect the importance of each word relative to the entire corpus. These vectors are then fed into a Naive Bayes classifier, which uses probability theory to classify reviews into positive, negative, or neutral categories. By combining both rule-based (TextBlob) and machine learning (TF-IDF + Naive Bayes) approaches, we ensure both interpretability and predictive accuracy in our sentiment analysis pipeline. This hybrid method helps us extract meaningful insights from thousands of user reviews, ultimately supporting better understanding of user feedback and app improvement.
+
+Let me know if you want this paragraph translated into a slide, research abstract, or report section!
+
+
+
+
+
+
+
+
+
+
